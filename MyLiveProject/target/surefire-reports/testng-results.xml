@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="0" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="com.live.test.FacebookTest" duration-ms="0" started-at="2017-04-02T10:46:30Z" finished-at="2017-04-02T10:46:30Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="0" started-at="2017-04-02T10:46:30Z" finished-at="2017-04-02T10:46:30Z">
+    </test> <!-- Command line test -->
+  </suite> <!-- com.live.test.FacebookTest -->
+</testng-results>

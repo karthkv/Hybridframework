@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[Entered into the LoginMethod]]>
+    </line>
+    <line>
+      <![CDATA[Completed LoginMethod]]>
+    </line>
+    <line>
+      <![CDATA[Entered into the LoginMethod]]>
+    </line>
+    <line>
+      <![CDATA[Completed LoginMethod]]>
+    </line>
+    <line>
+      <![CDATA[Entered Create Account method]]>
+    </line>
+    <line>
+      <![CDATA[Copmleted createAccount method]]>
+    </line>
+    <line>
+      <![CDATA[Entered Create Account method]]>
+    </line>
+    <line>
+      <![CDATA[Copmleted createAccount method]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="47106" started-at="2016-10-01T06:24:21Z" finished-at="2016-10-01T06:25:08Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="47106" started-at="2016-10-01T06:24:21Z" finished-at="2016-10-01T06:25:08Z">
+      <class name="com.live.test.FacebookTest">
+        <test-method status="PASS" signature="initalize()[pri:0, instance:com.live.test.FacebookTest@ea4a92b]" name="initalize" is-config="true" duration-ms="1313" started-at="2016-10-01T11:54:21Z" finished-at="2016-10-01T11:54:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initalize -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.live.test.FacebookTest@ea4a92b]" name="init" is-config="true" duration-ms="8478" started-at="2016-10-01T11:54:22Z" finished-at="2016-10-01T11:54:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="loginUser(java.lang.String, java.lang.String)[pri:0, instance:com.live.test.FacebookTest@ea4a92b]" name="loginUser" duration-ms="2521" started-at="2016-10-01T11:54:31Z" data-provider="LoginData" finished-at="2016-10-01T11:54:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Loginuser1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Entered into the LoginMethod]]>
+            </line>
+            <line>
+              <![CDATA[Completed LoginMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginUser -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.live.test.FacebookTest@ea4a92b]" name="tearDown" is-config="true" duration-ms="1832" started-at="2016-10-01T11:54:33Z" finished-at="2016-10-01T11:54:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.live.test.FacebookTest@ea4a92b]" name="init" is-config="true" duration-ms="6761" started-at="2016-10-01T11:54:35Z" finished-at="2016-10-01T11:54:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="loginUser(java.lang.String, java.lang.String)[pri:0, instance:com.live.test.FacebookTest@ea4a92b]" name="loginUser" duration-ms="3009" started-at="2016-10-01T11:54:42Z" data-provider="LoginData" finished-at="2016-10-01T11:54:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Loginuser2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Entered into the LoginMethod]]>
+            </line>
+            <line>
+              <![CDATA[Completed LoginMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginUser -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.live.test.FacebookTest@ea4a92b]" name="tearDown" is-config="true" duration-ms="1477" started-at="2016-10-01T11:54:45Z" finished-at="2016-10-01T11:54:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.live.test.FacebookTest@ea4a92b]" name="init" is-config="true" duration-ms="6175" started-at="2016-10-01T11:54:46Z" finished-at="2016-10-01T11:54:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="createAccount(java.lang.String, java.lang.String)[pri:0, instance:com.live.test.FacebookTest@ea4a92b]" name="createAccount" duration-ms="3165" started-at="2016-10-01T11:54:53Z" data-provider="CreateAccount" finished-at="2016-10-01T11:54:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Createuser1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Entered Create Account method]]>
+            </line>
+            <line>
+              <![CDATA[Copmleted createAccount method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createAccount -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.live.test.FacebookTest@ea4a92b]" name="tearDown" is-config="true" duration-ms="1406" started-at="2016-10-01T11:54:56Z" finished-at="2016-10-01T11:54:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.live.test.FacebookTest@ea4a92b]" name="init" is-config="true" duration-ms="6278" started-at="2016-10-01T11:54:57Z" finished-at="2016-10-01T11:55:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="createAccount(java.lang.String, java.lang.String)[pri:0, instance:com.live.test.FacebookTest@ea4a92b]" name="createAccount" duration-ms="3243" started-at="2016-10-01T11:55:04Z" data-provider="CreateAccount" finished-at="2016-10-01T11:55:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Createuser2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Entered Create Account method]]>
+            </line>
+            <line>
+              <![CDATA[Copmleted createAccount method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createAccount -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.live.test.FacebookTest@ea4a92b]" name="tearDown" is-config="true" duration-ms="1387" started-at="2016-10-01T11:55:07Z" finished-at="2016-10-01T11:55:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.live.test.FacebookTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
